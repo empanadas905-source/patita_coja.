@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Ayuda Perritos</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Perritos</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#formulario">Formulario</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="inicio" class="container mt-5 text-center">
+    <h1 class="titulo-propio">Ayuda a Perritos Callejeros</h1>
+    <p>Una plataforma para mejorar la vida de los perros sin hogar.</p>
+
+    <img src="img/perrito.jpg" class="img-fluid imagen-borde" alt="perrito">
+
+    <div class="alert alert-success mt-4">
+        ¡Únete y marca la diferencia!
+    </div>
+</section>
+
+<section id="servicios" class="container mt-5">
+    <h2 class="text-center">Nuestros Servicios</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Adopción</h5>
+                    <p>Encuentra un nuevo amigo.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Donaciones</h5>
+                    <p>Apoya con recursos.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Voluntariado</h5>
+                    <p>Participa ayudando.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="formulario" class="container mt-5">
+    <h2 class="text-center">Registro</h2>
+
+    <form>
+        <div class="mb-3">
+            <label>Nombre</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Email</label>
+            <input type="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Edad</label>
+            <input type="number" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Fecha</label>
+            <input type="date" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Tipo de ayuda</label>
+            <select class="form-control" required>
+                <option>Adopción</option>
+                <option>Donación</option>
+                <option>Voluntariado</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label>¿Tienes experiencia?</label>
+            <input type="checkbox" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Comentarios</label>
+            <textarea class="form-control" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+<section id="contacto" class="container mt-5">
+    <h2 class="text-center">Contacto</h2>
+
+    <form>
+        <div class="mb-3">
+            <label>Nombre</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Correo</label>
+            <input type="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Mensaje</label>
+            <textarea class="form-control" required></textarea>
+        </div>
+
+        <button class="btn btn-success">Enviar</button>
+    </form>
+</section>
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    <p>Nombre: Carlos Moreno</p>
+    <p>GitHub: https://github.com/empanadas905-source</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

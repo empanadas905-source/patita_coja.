@@ -1,0 +1,14 @@
+.titulo-propio {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.imagen-borde {
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.fondo-personalizado {
+    background-color: lightgray;
+    padding: 20px;
+}
